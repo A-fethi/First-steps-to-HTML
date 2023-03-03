@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formes two</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="this is solution for formes part two">
+    </head>
+    <body>
+        <form method="get">
+            <div hidden>
+                <label=>Token</label>
+                <input type="text" value="b92f1fc2fce391ad7af633723afd3055" name="token">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" readonly value="o@o.com" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Username</label>
+                <input type="text" required autofocus minlength="5" maxlength="20" name="username">
+            </div>
+            <hr>
+            <input type="checkbox" id="PL" name="skills" value="aa" checked>
+            <label for="PL">Planning</label><br>
+            <input type="checkbox" id="AN" name="skills" value="bb">
+            <label for="AN">Analysis</label><br>
+            <input type="checkbox" id="AS" name="skills"value="cc">
+            <label for="AS">Advanced Search</label><br>
+            <input type="checkbox" id="LT" name="skills" value="dd">
+            <label for="LT">Logical Thinking</label><br>
+            <input type="checkbox" id="PS" name="skills" value="ee">
+            <label for="PS">Problem Solving</label>
+            <hr>
+            <input type="radio" id="SM" name="job" value="ff" checked>
+            <label for="SM">Scrum Master</label><br>
+            <input type="radio" id="PM" name="job" value="gg">
+            <label for="PM">Project Manager</label><br>
+            <input type="radio" id="BA" name="job" value="hh">
+            <label for="BA">Business Analyst</label><br>
+            <input type="radio" id="BD" name="job" value="ii">
+            <label for="BD">Back-End Developer</label><br>
+            <input type="radio" id="FD" name="job" value="jj">
+            <label for="FD">Front-End Developer</label>
+            <br>
+            <input type="reset" value="Empty">
+            <input type="submit" value="Send">
+            <hr>
+            <label>Choose Book:</label>
+            <select>
+                <optgroup label="PHP">
+                    <option>v5.0</option>
+                    <option>v6.0</option>
+                    <option>v7.0</option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option>v2.0</option>
+                    <option>v3.0</option>
+                    <option>v3.9</option>
+                </optgroup>
+            </select>
+            <hr>
+            <textarea name="brief" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+        </form>
+    </body>
+</html>
