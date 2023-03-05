@@ -1,2 +1,2 @@
 # First-steps-to-HTML
-My first educational applications about HTML
+My first learning applications about HTML
